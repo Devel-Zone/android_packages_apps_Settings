@@ -101,7 +101,7 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
             public void onClick(DialogInterface dialog, int which) {
             }
         });
-        builder.setNeutralButton(R.string.keywords_settings_reset,
+        builder.setNeutralButton(R.string.reset,
                 new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
